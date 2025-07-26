@@ -5,15 +5,20 @@
     font-family: "Noto Serif", serif;
   }
 }
+
+/* hover style for button */
 .btn-primary:hover {
   transition: 0.9s;
   background-color: rgb(2, 161, 247);
   cursor: pointer;
 }
+/* hover style for card */
 .card:hover {
   background-color: bisque;
   transition: 0.5s;
 }
+
+/* hover style for nav list */
 .list-style:hover {
   background-color: tomato;
   transition: 0.7s;
