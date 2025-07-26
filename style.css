@@ -5,3 +5,143 @@
     font-family: "Noto Serif", serif;
   }
 }
+
+.btn-primary:hover {
+  transition: 0.9s;
+  background-color: rgb(2, 161, 247);
+  cursor: pointer;
+}
+.card:hover {
+  background-color: bisque;
+  transition: 0.5s;
+}
+.list-style:hover {
+  background-color: tomato;
+  transition: 0.7s;
+  text-decoration: underline;
+  color: white;
+  padding: 7px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* animation for header section*/
+
+@keyframes flower {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flower {
+  animation: flower 3s ease-in-out 1 forwards;
+}
+
+@keyframes banner {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.banner {
+  animation: banner 3s ease-in-out 1 forwards;
+}
+
+/* media screen for mobile device */
+
+@media (max-width: 576px) {
+  .width {
+    max-width: 393px;
+  }
+  .width-2 {
+    max-width: 361px;
+  }
+  .width-3 {
+    max-width: 200px;
+  }
+  .btn-width {
+    max-width: 103px;
+  }
+  .width-text {
+    max-width: 170px;
+  }
+  .height {
+    max-height: 276px;
+  }
+  .height-2 {
+    max-height: 50px;
+  }
+  .btn-height {
+    min-height: 48px;
+  }
+  .hide {
+    display: none;
+  }
+  .text-size {
+    font-size: 1.45rem;
+    font-weight: bold;
+  }
+  .shop-now {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .text-color {
+    color: rgb(0, 0, 0);
+  }
+  .image {
+    max-width: 393px;
+  }
+  .bg-image {
+    max-width: 367px;
+    max-height: 201px;
+  }
+  .direction {
+    flex-direction: column-reverse;
+  }
+  .direction-2 {
+    flex-direction: column;
+  }
+  .grid-layout {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .margin {
+    margin-left: 10px;
+  }
+  .margin-top {
+    margin-top: 20px;
+  }
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-layout-footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gap {
+    gap: 9px;
+  }
+}
