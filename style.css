@@ -5,7 +5,6 @@
     font-family: "Noto Serif", serif;
   }
 }
-
 .btn-primary:hover {
   transition: 0.9s;
   background-color: rgb(2, 161, 247);
@@ -25,7 +24,7 @@
   font-weight: 500;
 }
 
-/* animation for header section*/
+/* animation for header section image*/
 
 @keyframes flower {
   0% {
@@ -49,10 +48,11 @@
   animation: flower 3s ease-in-out 1 forwards;
 }
 
-@keyframes banner {
+/* header animation */
+@keyframes header {
   0% {
     opacity: 0;
-    transform: translateX(-40px);
+    transform: translateX(-50px);
   }
   25% {
     opacity: 0.3;
@@ -67,8 +67,8 @@
     opacity: 1;
   }
 }
-.banner {
-  animation: banner 3s ease-in-out 1 forwards;
+header {
+  animation: header 3s ease-in-out 1 forwards;
 }
 
 /* media screen for mobile device */
