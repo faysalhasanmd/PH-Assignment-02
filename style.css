@@ -149,4 +149,7 @@ header {
   .gap {
     gap: 9px;
   }
+  .pad {
+    justify-items: center;
+  }
 }
