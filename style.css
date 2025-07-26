@@ -92,7 +92,7 @@ header {
     max-width: 103px;
   }
   .width-text {
-    max-width: 170px;
+    max-width: 190px;
   }
   .height {
     max-height: 276px;
@@ -147,6 +147,6 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
   .gap {
-    gap: 9px;
+    gap: 12px;
   }
 }
